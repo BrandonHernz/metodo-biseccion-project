@@ -77,8 +77,8 @@ function generateResults(i, rxl, rxu, rxr, rfxl, rfxu, rfxr, rProducto) {
 
 // Función variable real
 function f(x) {
-  return Math.pow(x, 4) + 3 * Math.pow(x, 3) - 2;
-  //return Math.pow(x, 3) - 7 * Math.pow(x, 2) + 14 * Math.pow(x, 1) - 6;
+  //return Math.pow(x, 4) + 3 * Math.pow(x, 3) - 2;
+  return Math.pow(x, 3) - 7 * Math.pow(x, 2) + 14 * Math.pow(x, 1) - 6;
 }
 
 // Función que ejecuta el método de biseccion
